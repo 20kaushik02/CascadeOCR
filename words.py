@@ -140,7 +140,6 @@ def _text_detect(img, image, join=False):
         index = hierarchy[0][index][0]
 
     if join:
-        # Need more work
         boxes = _group_rectangles(boxes)
 
     # image for drawing bounding boxes
